@@ -98,22 +98,25 @@ An interactive dashboard was developed to visualize:
 ## 📁 Repository Structure
 
 customer-segmentation-rfm-bigquery/
-│
-├── README.md
-├── data/
-│   └── sales_data_schema.md
-├── sql/
-│   ├── 01_data_cleaning.sql
-│   ├── 02_rfm_metrics.sql
-│   ├── 03_quintile_calculation.sql
-│   ├── 04_rfm_scoring.sql
-│   └── 05_rfm_segmentation.sql
-├── dashboard/
-│   └── powerbi / tableau files
-├── insights/
-│   └── customer_segments_analysis.md
-└── assets/
-    └── dashboard_screenshots.png
+- data/                          # Dataset schema & metadata (no raw data uploaded)
+  - sales_data_schema.md
+- sql/                           # BigQuery SQL scripts for RFM analysis
+  - 01_data_cleaning.sql
+  - 02_rfm_metrics.sql
+  - 03_quintile_calculation.sql
+  - 04_rfm_scoring.sql
+  - 05_rfm_segmentation.sql
+- reports/                       # Final insights & business recommendations
+  - customer_segmentation_insights.pdf
+- dashboard/                     # BI dashboards for visualization
+  - powerbi/
+    - rfm_customer_segmentation.pbix
+  - tableau/
+    - rfm_customer_segmentation.twbx
+- assets/                        # Images used in README (dashboard screenshots)
+  - dashboard_preview.png
+- README.md                      # Project overview & methodology
+
 
 ---
 
@@ -132,7 +135,3 @@ This project demonstrates how **simple, explainable analytics techniques like RF
 - Supporting strategic decision-making with data
 
 ---
-
-## 👤 Author
-**Lilly Sheela**  
-Data Analyst | SQL | BigQuery | Power BI
