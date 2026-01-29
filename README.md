@@ -40,7 +40,9 @@ Cancelled transactions and invalid records were excluded during data preparation
 
 ## 🛠️ Tools & Technologies
 - **Google BigQuery**
-- **SQL (CTEs, aggrega**
+- **SQL (CTEs, aggregations, window functions, CASE logic)**
+- **Power BI / Tableau**
+- **GitHub**
 
 ---
 
