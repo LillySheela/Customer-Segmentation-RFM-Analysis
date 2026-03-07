@@ -82,18 +82,6 @@ For each customer:
 - Created a reusable segmentation framework that can be automated
 - Produced a clean customer-level dataset ready for BI reporting
 
----
-
-## 📊 Dashboard (Power BI / Tableau)
-An interactive dashboard was developed to visualize:
-- Customer distribution by RFM segment
-- Revenue contribution per segment
-- Recency, frequency, and monetary trends
-- Marketing action recommendations per segment
-
-*(Screenshots and dashboard files are available in the `/dashboard` and `/assets` folders.)*
-
----
 
 ## 📁 Repository Structure
 
@@ -108,13 +96,6 @@ customer-segmentation-rfm-bigquery/
   - 05_rfm_segmentation.sql
 - reports/                       # Final insights & business recommendations
   - customer_segmentation_insights.pdf
-- dashboard/                     # BI dashboards for visualization
-  - powerbi/
-    - rfm_customer_segmentation.pbix
-  - tableau/
-    - rfm_customer_segmentation.twbx
-- assets/                        # Images used in README (dashboard screenshots)
-  - dashboard_preview.png
 - README.md                      # Project overview & methodology
 
 
@@ -124,7 +105,7 @@ customer-segmentation-rfm-bigquery/
 1. Upload `sales.csv` to Google BigQuery
 2. Execute SQL scripts in the `/sql` folder sequentially
 3. Export final RFM segmentation table
-4. Connect the output to Power BI or Tableau for visualization
+
 
 ---
 
